@@ -1,0 +1,56 @@
+section.homepage {
+  margin: 3rem 1.5rem;
+  text-align: center;
+
+  div.form {
+    color: #fff;
+    margin: 3rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(86, 69, 146);
+    background: linear-gradient(
+      257deg,
+      rgba(86, 69, 146, 1) 12%,
+      rgba(53, 40, 104, 1) 68%
+    );
+    border-radius: 3px;
+    box-shadow: 2px 2px lightgrey;
+    padding: 1.5rem;
+    form {
+      label,
+      input,
+      select {
+        display: block;
+      }
+      label {
+        font-weight: bold;
+        font-size: 1.1rem;
+        margin-bottom: 0.4rem;
+      }
+      input,
+      select {
+        margin: auto;
+        margin-bottom: 1.5rem;
+        border: 1px solid grey;
+        border-radius: 4px;
+        padding: 0.5rem;
+        width: 300px;
+        background-color: #fff;
+      }
+
+      button {
+        color: #fff;
+        background: rgb(255, 148, 120);
+        background: linear-gradient(
+          257deg,
+          rgba(255, 148, 120, 1) 12%,
+          rgba(255, 120, 120, 1) 72%
+        );
+        border-radius: 16px;
+        padding: 0.5rem 3rem;
+        box-shadow: 2px 2px 2px rgb(226, 177, 177);
+      }
+    }
+  }
+}
