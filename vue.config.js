@@ -1,5 +1,5 @@
 module.exports = {
-  vue: {
+  pwa: {
     name: "Brandmobile Quiz",
     workboxOptions: "GenerateSW",
     themeColor: "#352868",
