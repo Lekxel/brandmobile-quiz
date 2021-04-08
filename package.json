@@ -34,11 +34,5 @@
 		"prettier": "^1.19.1",
 		"sass-loader": "^8.0.2",
 		"typescript": "~3.9.3"
-	},
-	"vue": {
-		"name": "Brandmobile Quiz",
-		"workboxOptions": "GenerateSW",
-		"themeColor": "#352868",
-		"msTileColor": "#000000"
 	}
 }
